@@ -4,3 +4,7 @@ console.log('////REQUIRE////', `\n`, require, `\n`)
 console.log('////FILENAME////', `\n`, __filename, `\n`)
 console.log('////DIRNAME////', `\n`, __dirname, `\n`)
 console.log('////ARGUMENTS////', `\n`, arguments)
+
+export default module.exports = num => {
+    return num+2
+}
